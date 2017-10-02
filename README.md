@@ -6,3 +6,4 @@ Inspired by [post](https://medium.com/@ageitgey/machine-learning-is-fun-part-4-m
  | ------------- |
  | 1.  Find faces using ['Histogram of Oriented Gradients'](https://en.wikipedia.org/wiki/Histogram_of_oriented_gradients)  method.      | 
  | 2a. Detect face landmarks using ['Face landmark estimation'](http://www.csc.kth.se/~vahidk/papers/KazemiCVPR14.pdf)  algorithm     | 
+ | 2b. Center face landmarks by rotating, scaling and shearing     | 
