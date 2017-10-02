@@ -31,7 +31,7 @@ def find_faces():
 
             win.add_overlay(face_area)
 
-    return faces
+    return image, faces
 
 
 
