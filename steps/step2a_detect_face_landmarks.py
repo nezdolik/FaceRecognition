@@ -1,14 +1,13 @@
-import sys
 import dlib
 from pipe import Pipe
-from skimage import io
 
-from steps import common
+
+from common import *
 
 @Pipe
 def detect_landmarks(find_faces):
     image, faces = find_faces()
-    face_pose_predictor = dlib.shape_predictor(common.PREDICTOR_MODEL)
+    face_pose_predictor = dlib.shape_predictor(PREDICTOR_MODEL)
 
     win = dlib.image_window()
 
@@ -27,6 +26,6 @@ def detect_landmarks(find_faces):
 
     dlib.hit_enter_to_continue()
 
-    return pose_landmarks, image
+    return faces, image
 
 

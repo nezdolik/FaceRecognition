@@ -10,7 +10,7 @@ install_requires = [
     'boost',
     'boost-python --with-python3',
     'dlib',
-    'pipe', 'cv2'
+    'pipe', 'cv2', 'openface'
     ]
 
 dependency_links = [

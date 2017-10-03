@@ -1,7 +1,6 @@
 import sys
 import os
 import dlib
-from pipe import Pipe
 from skimage import io
 
 
@@ -34,5 +33,5 @@ def find_faces():
     return image, faces
 
 
-
+find_faces()
 
